@@ -1,0 +1,188 @@
+0,114s RX Buffer capacity: 128 bytes, occupied memory: 4 bytes, load [in %]: 3.1%
+0,379s Opened COM5: 115200 8N1, no flow control
+2,079s RX Buffer capacity: 128 bytes, occupied memory: 4 bytes, load [in %]: 3.1%
+4,076s RX Buffer capacity: 128 bytes, occupied memory: 4 bytes, load [in %]: 3.1%
+6,083s RX Buffer capacity: 128 bytes, occupied memory: 4 bytes, load [in %]: 3.1%
+7,009s PASS Periodic reports present
+7,016s PASS Report interval: 1997 ms
+7,017s PASS Report interval: 2007 ms
+7,028s TX Ab12cD$
+7,200s PASS Ignore data without start marker
+7,201s TX #Platn15uborZnakov$
+7,222s RX Valid string: Platn15uborZnakov, lower-case: 13, upper-case: 2
+7,366s PASS Assignment example counts and exact format
+7,367s TX #Ab12
+7,519s PASS No result before end marker
+7,519s TX cD$
+7,534s RX Valid string: Ab12cD, lower-case: 2, upper-case: 2
+7,674s PASS State survives separate transmissions
+7,675s TX #aB$#Cd$
+7,690s RX Valid string: aB, lower-case: 1, upper-case: 1
+7,691s RX Valid string: Cd, lower-case: 1, upper-case: 1
+7,831s PASS Multiple frames in one burst, no overwrite
+7,831s TX #aaaaaaaaaaaaaaaaaBB
+7,878s TX BBBBBBBBBBBBBBB$
+7,894s RX Valid string: aaaaaaaaaaaaaaaaaBBBBBBBBBBBBBBBBB, lower-case: 17, upper-case: 17
+8,034s PASS End marker at position 35 accepted
+8,035s TX #aaaaaaaaaaaaaaaaaaa
+8,080s TX aaaaaaaaaaaaaaaa$
+8,083s RX Buffer capacity: 128 bytes, occupied memory: 102 bytes, load [in %]: 79.7%
+8,237s PASS 35 characters without end marker discarded
+8,238s TX #Ok$
+8,252s RX Valid string: Ok, lower-case: 1, upper-case: 1
+8,393s PASS Recovery after discarded frame
+8,394s TX #$#123!?$
+8,424s RX Valid string: , lower-case: 0, upper-case: 0
+8,425s RX Valid string: 123!?, lower-case: 0, upper-case: 0
+8,548s PASS Empty frame, digits and punctuation
+8,550s TX #Ab0z$
+8,563s RX Valid string: Ab0z, lower-case: 2, upper-case: 1
+8,594s TX #Ab1z$
+8,610s RX Valid string: Ab1z, lower-case: 2, upper-case: 1
+8,641s TX #Ab2z$
+8,658s RX Valid string: Ab2z, lower-case: 2, upper-case: 1
+8,689s TX #Ab3z$
+8,704s RX Valid string: Ab3z, lower-case: 2, upper-case: 1
+8,736s TX #Ab4z$
+8,752s RX Valid string: Ab4z, lower-case: 2, upper-case: 1
+8,783s TX #Ab5z$
+8,798s RX Valid string: Ab5z, lower-case: 2, upper-case: 1
+8,829s TX #Ab6z$
+8,844s RX Valid string: Ab6z, lower-case: 2, upper-case: 1
+8,875s TX #Ab7z$
+8,890s RX Valid string: Ab7z, lower-case: 2, upper-case: 1
+8,922s TX #Ab8z$
+8,938s RX Valid string: Ab8z, lower-case: 2, upper-case: 1
+8,969s TX #Ab9z$
+8,985s RX Valid string: Ab9z, lower-case: 2, upper-case: 1
+9,017s TX #Ab10z$
+9,032s RX Valid string: Ab10z, lower-case: 2, upper-case: 1
+9,063s TX #Ab11z$
+9,079s RX Valid string: Ab11z, lower-case: 2, upper-case: 1
+9,109s TX #Ab12z$
+9,124s RX Valid string: Ab12z, lower-case: 2, upper-case: 1
+9,156s TX #Ab13z$
+9,172s RX Valid string: Ab13z, lower-case: 2, upper-case: 1
+9,202s TX #Ab14z$
+9,219s RX Valid string: Ab14z, lower-case: 2, upper-case: 1
+9,250s TX #Ab15z$
+9,265s RX Valid string: Ab15z, lower-case: 2, upper-case: 1
+9,296s TX #Ab16z$
+9,312s RX Valid string: Ab16z, lower-case: 2, upper-case: 1
+9,342s TX #Ab17z$
+9,358s RX Valid string: Ab17z, lower-case: 2, upper-case: 1
+9,390s TX #Ab18z$
+9,405s RX Valid string: Ab18z, lower-case: 2, upper-case: 1
+9,436s TX #Ab19z$
+9,452s RX Valid string: Ab19z, lower-case: 2, upper-case: 1
+9,483s TX #Ab20z$
+9,499s RX Valid string: Ab20z, lower-case: 2, upper-case: 1
+9,530s TX #Ab21z$
+9,546s RX Valid string: Ab21z, lower-case: 2, upper-case: 1
+9,577s TX #Ab22z$
+9,594s RX Valid string: Ab22z, lower-case: 2, upper-case: 1
+9,625s TX #Ab23z$
+9,640s RX Valid string: Ab23z, lower-case: 2, upper-case: 1
+9,672s TX #Ab24z$
+9,688s RX Valid string: Ab24z, lower-case: 2, upper-case: 1
+9,719s TX #Ab25z$
+9,735s RX Valid string: Ab25z, lower-case: 2, upper-case: 1
+9,766s TX #Ab26z$
+9,782s RX Valid string: Ab26z, lower-case: 2, upper-case: 1
+9,813s TX #Ab27z$
+9,829s RX Valid string: Ab27z, lower-case: 2, upper-case: 1
+9,861s TX #Ab28z$
+9,877s RX Valid string: Ab28z, lower-case: 2, upper-case: 1
+9,908s TX #Ab29z$
+9,923s RX Valid string: Ab29z, lower-case: 2, upper-case: 1
+9,953s TX #Ab30z$
+9,969s RX Valid string: Ab30z, lower-case: 2, upper-case: 1
+9,999s TX #Ab31z$
+10,015s RX Valid string: Ab31z, lower-case: 2, upper-case: 1
+10,047s TX #Ab32z$
+10,062s RX Valid string: Ab32z, lower-case: 2, upper-case: 1
+10,093s TX #Ab33z$
+10,094s RX Buffer capacity: 128 bytes, occupied memory: 7 bytes, load [in %]: 5.5%
+10,108s RX Valid string: Ab33z, lower-case: 2, upper-case: 1
+10,139s TX #Ab34z$
+10,154s RX Valid string: Ab34z, lower-case: 2, upper-case: 1
+10,185s TX #Ab35z$
+10,200s RX Valid string: Ab35z, lower-case: 2, upper-case: 1
+10,232s TX #Ab36z$
+10,248s RX Valid string: Ab36z, lower-case: 2, upper-case: 1
+10,279s TX #Ab37z$
+10,295s RX Valid string: Ab37z, lower-case: 2, upper-case: 1
+10,326s TX #Ab38z$
+10,341s RX Valid string: Ab38z, lower-case: 2, upper-case: 1
+10,372s TX #Ab39z$
+10,388s RX Valid string: Ab39z, lower-case: 2, upper-case: 1
+10,418s TX #Ab40z$
+10,434s RX Valid string: Ab40z, lower-case: 2, upper-case: 1
+10,464s TX #Ab41z$
+10,480s RX Valid string: Ab41z, lower-case: 2, upper-case: 1
+10,511s TX #Ab42z$
+10,528s RX Valid string: Ab42z, lower-case: 2, upper-case: 1
+10,559s TX #Ab43z$
+10,575s RX Valid string: Ab43z, lower-case: 2, upper-case: 1
+10,607s TX #Ab44z$
+10,622s RX Valid string: Ab44z, lower-case: 2, upper-case: 1
+10,652s TX #Ab45z$
+10,667s RX Valid string: Ab45z, lower-case: 2, upper-case: 1
+10,699s TX #Ab46z$
+10,714s RX Valid string: Ab46z, lower-case: 2, upper-case: 1
+10,746s TX #Ab47z$
+10,762s RX Valid string: Ab47z, lower-case: 2, upper-case: 1
+10,793s TX #Ab48z$
+10,808s RX Valid string: Ab48z, lower-case: 2, upper-case: 1
+10,839s TX #Ab49z$
+10,854s RX Valid string: Ab49z, lower-case: 2, upper-case: 1
+10,886s TX #Ab50z$
+10,901s RX Valid string: Ab50z, lower-case: 2, upper-case: 1
+10,932s TX #Ab51z$
+10,948s RX Valid string: Ab51z, lower-case: 2, upper-case: 1
+10,979s TX #Ab52z$
+10,995s RX Valid string: Ab52z, lower-case: 2, upper-case: 1
+11,025s TX #Ab53z$
+11,040s RX Valid string: Ab53z, lower-case: 2, upper-case: 1
+11,072s TX #Ab54z$
+11,087s RX Valid string: Ab54z, lower-case: 2, upper-case: 1
+11,118s TX #Ab55z$
+11,134s RX Valid string: Ab55z, lower-case: 2, upper-case: 1
+11,166s TX #Ab56z$
+11,182s RX Valid string: Ab56z, lower-case: 2, upper-case: 1
+11,213s TX #Ab57z$
+11,228s RX Valid string: Ab57z, lower-case: 2, upper-case: 1
+11,259s TX #Ab58z$
+11,275s RX Valid string: Ab58z, lower-case: 2, upper-case: 1
+11,305s TX #Ab59z$
+11,321s RX Valid string: Ab59z, lower-case: 2, upper-case: 1
+11,351s TX #Ab60z$
+11,367s RX Valid string: Ab60z, lower-case: 2, upper-case: 1
+11,399s TX #Ab61z$
+11,414s RX Valid string: Ab61z, lower-case: 2, upper-case: 1
+11,445s TX #Ab62z$
+11,460s RX Valid string: Ab62z, lower-case: 2, upper-case: 1
+11,506s TX #Ab63z$
+11,537s RX Valid string: Ab63z, lower-case: 2, upper-case: 1
+11,866s PASS 64 successive frames across multiple DMA buffer restarts
+11,869s PASS All 64 results have correct counts and order
+12,098s RX Buffer capacity: 128 bytes, occupied memory: 0 bytes, load [in %]: 0.0%
+14,085s PASS DMA report format
+14,105s PASS Buffer percentage matches occupancy
+14,106s PASS At least 20 free bytes reserved for next burst
+14,110s TX xxxxxxxxxxxxxxxxxxxx
+14,113s RX Buffer capacity: 128 bytes, occupied memory: 0 bytes, load [in %]: 0.0%
+14,158s TX xxxxxxxxxxxxxxxxxxxx
+14,204s TX xxxxxxxxxxxxxxxxxxxx
+14,251s TX xxxxxxxxxxxxxxxxxxxx
+14,297s TX xxxxxxxxxxxxxxxxxxxx
+14,344s TX xxxxxxxx
+16,105s RX Buffer capacity: 128 bytes, occupied memory: 108 bytes, load [in %]: 84.4%
+16,607s PASS DMA positioned at 108 of 128 bytes
+16,607s TX xxxxxxxxxxxxxxxxxxxx
+18,109s RX Buffer capacity: 128 bytes, occupied memory: 0 bytes, load [in %]: 0.0%
+18,881s PASS DMA restarts safely even when USB splits the final write
+18,882s TX #AfterTC$
+18,905s RX Valid string: AfterTC, lower-case: 4, upper-case: 3
+19,046s PASS Reception continues correctly after buffer restart
+19,047s ALL HARDWARE TESTS PASSED
